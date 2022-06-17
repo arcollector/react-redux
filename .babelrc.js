@@ -36,5 +36,6 @@ module.exports = {
   ].filter(Boolean),
   assumptions: {
     enumerableModuleMeta: true,
+    constantReexports: true,
   },
 }
